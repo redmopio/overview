@@ -1,14 +1,9 @@
 # Proyecto REDMOP
 
-## Definiciones
-A continuacion se describen los conceptos mas importantes del proyecto REDMOP.
+## Resumen
+El proyecto REDMOP es un sistema de monitoreo climático distribuido que utiliza una red de voluntarios para recopilar datos sobre las condiciones meteorológicas en una zona geográfica específica. Los voluntarios comparten sus mediciones locales de lluvia a través de un sistema colaborativo, lo que resulta en una base de datos climática colectiva y distribuida. Este sistema puede ser utilizado para tomar decisiones y crear aplicaciones para diferentes usuarios interesados en la información climática en tiempo real.
 
-### Red de Monitoreo Participativo (REDMOP)
-La red de monitoreo participativo es una red de personas voluntarias, distribuidas a lo largo de un determinado espacio geografico, y que comparten los resultados de sus mediciones de lluvia locales a traves de un sistema de agregacion colaborativa.
-
-Al tener esta red distribuida de voluntarios que recolectan datos fluviales, contamos con una base de datos colaborativa que se puede usar para toma de decisiones y la creacion de aplicaciones paa diferentes usuarios interesados en la informacion en tiempo real de las condiciones fluviales de dicho espacio geografico.
-
-## Estado inicial
+## Estado actual
 Actualmente, el proyecto REDMOP cuenta con un proceso de adquision de datos a traves de WhatsApp. Dicho proceso requiere de intervencion humana en dos etapas del proceso principal: Recoleccion de datos e interaccion con la red de voluntarios.
 
 ### Recoleccion de datos
@@ -24,3 +19,9 @@ El primer objetivo es automatizar los procesos de recoleccion de datos e interac
 
 El primer paso para conseguir dicho objetivo es construir un sistema que permita la automatizacion de respuestas a traves de la plataforma de WhatsApp, para eso se construira un programa que, de manera conversacional pueda recolectar los datos de cada voluntario y almacenarlo en una base de datos.
 
+### Arquitectura propuesta
+El sistema completo para el proyecto REDMOP se ha disenado con la premisa de conseguir escalabilidad en cada una de sus componentes, a continuacion se muestra un grafico que ilustra los diferentes componentes del sistema.
+
+<p align="center">
+  <img width="640" src="/architecture.png">
+</p>
