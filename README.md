@@ -1,5 +1,9 @@
 # Proyecto REDMOP
 
+<p align="center">
+  <img width="480" src="/redmop_logo.png">
+</p>
+
 ## Resumen
 El proyecto REDMOP es un sistema de monitoreo climático distribuido que utiliza una red de voluntarios para recopilar datos sobre las condiciones meteorológicas en una zona geográfica específica. Los voluntarios comparten sus mediciones locales de lluvia a través de un sistema colaborativo, lo que resulta en una base de datos climática colectiva y distribuida. Este sistema puede ser utilizado para tomar decisiones y crear aplicaciones para diferentes usuarios interesados en la información climática en tiempo real.
 
